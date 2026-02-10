@@ -3,15 +3,6 @@ fast cryptocurrency trading bot framework implemented in Go. Ninjabot permits us
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | This software is for educational purposes only. Do not risk money which you are afraid to lose.  USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS |
 
-## Examples of Usage
-
-Check [examples](examples) directory:
-
-- Paper Wallet (Live Simulation)
-- Backtesting (Simulation with historical data)
-- Real Account 
-
-
 **Example of usage**
 ```bash
 # Download candles of BTCUSDT to btc.csv file (Last 30 days, timeframe 1D)
@@ -19,11 +10,6 @@ ninjabot download --pair BTCUSDT --timeframe 1d --days 30 --output ./btc.csv
 ```
 
 ### Backtesting Example
-
-- Backtesting a custom strategy from [examples](examples) directory:
-```
-go run examples/backtesting/main.go
-```
 
 Output:
 
